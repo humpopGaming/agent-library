@@ -15,7 +15,7 @@ Everything exists to **reduce the time the owner spends**. Rank ideas by owner t
 
 ### 1. Find work (query the Notion database in `config/notion.md`)
 Process, in this order:
-1. **Owner comments**: rows with status `Proposed`, `Revised` or `Needs input` that have **unresolved comments** from the owner (use `notion-get-comments` on each page). Reply to each comment in its thread (`notion-create-comment` with `discussion_id`), revise the report page accordingly, add a line to the Revision log, set Status `Revised`. If the owner answered a `Needs input` question (for example pasted post text into Notes), continue as for a `New` row.
+1. **Owner comments**: rows with status `Proposed`, `Revised` or `Needs input` that have **unresolved comments** from the owner (use `notion-get-comments` on each page). Your own comments are posted under the owner's Notion account, so they cannot be told apart by author. **Start every comment you write with `🤖 Idea researcher:`** and treat any comment that does **not** start with that prefix as the owner's. A thread whose last comment is yours is waiting on the owner; do nothing with it. Reply to each comment in its thread (`notion-create-comment` with `discussion_id`), revise the report page accordingly, add a line to the Revision log, set Status `Revised`. If the owner answered a `Needs input` question (for example pasted post text into Notes), continue as for a `New` row.
 2. **Approved rows**: status `Approved` and empty `GitHub issue`. Prepare the final issue draft per step 5.
 3. **New rows**: status `New`.
 
