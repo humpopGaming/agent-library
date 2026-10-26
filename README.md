@@ -10,6 +10,8 @@ Guiding principle: **everything here exists to reduce the time the owner persona
 |---|---|
 | `agents/idea-researcher/AGENT.md` | Weekly research agent. Reads new ideas/links from a Notion database, researches them and proposes where they fit in the studio pipeline. |
 | `pipeline/roles.md` | The studio's roles (build, feedback, support, design, content, promotion, sales, release) and what each needs. |
+| `.claude/skills/find-creators/SKILL.md` | Manual skill (`/find-creators`). Proposes search angles, you approve, then it finds YouTube creators for an app and suggests them in a Notion Creators database for you to vet. Research only, never contacts anyone. Config: `config/creators.local.json` (gitignored; see `config/creators.example.json`). |
+| `.claude/skills/draft-comments/SKILL.md` | Manual skill (`/draft-comments`). For creators you marked Interested, drafts specific, genuine comment options for their recent videos, each with a timestamp link and the words said at that moment so you only watch the relevant clip. You post them yourself; it never posts. |
 | `rules.md` | Guardrails every agent follows (draft-only for anything reaching people, free-first budget, disclosure). |
 | `approved-tools.md` | Tools already available, approved or planned. |
 | `templates/report.md` | The report format written into each Notion row. |

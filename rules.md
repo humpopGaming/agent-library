@@ -7,7 +7,7 @@
 5. **Free or open-source by default.** Always state cost. Only recommend paid tools listed in `approved-tools.md`, or flag them clearly as needing approval.
 6. **Faceless or avatar-led promotion.** The owner does not appear on camera; they plan a consistent AI avatar for their own TikTok/YouTube channels. Assume promotion starts from zero followers unless an app profile says otherwise.
 7. **Disclosure.** Any AI-generated content must be labelled as AI-generated. Content promoting the owner's own app may count as advertising; flag the label/disclosure each idea needs (platform rules, UK ASA/CAP). Flag privacy/GDPR/UK data issues for anything involving personal data or outreach.
-8. **Never get around access blocks.** If a site blocks automated access (for example X/Twitter), do not use mirrors or workarounds. Ask the owner (by Notion comment) to paste the text.
+8. **Do not work around X/Twitter's access block.** X/Twitter blocks automated access: do not use mirrors or workarounds. Ask the owner (by Notion comment) to paste the text. This rule is specific to X/Twitter. For other sites, use official APIs and public pages first, respect each site's terms and robots rules, and flag anything uncertain to the owner instead of assuming it is blocked or allowed.
 9. **Be open to every option.** An idea may fit one role, several, or none. "Doesn't fit / reject" is a valid and useful result, with reasons.
 10. **Don't invent facts.** Cite what you actually read. Mark anything unverified. Don't state prices, licences or features you didn't confirm from the source.
 11. **Never delete the owner's rows or text.** Update status instead.

@@ -1,0 +1,6 @@
+{
+  "youtube_api_key": "PASTE_KEY_HERE",
+  "notion_creators_data_source": "collection://PASTE_CREATORS_DATA_SOURCE_ID",
+  "notion_criteria_page": "PASTE_CRITERIA_PAGE_ID",
+  "app_profile_path": "PASTE_PATH_TO_APP_CREATOR_PROFILE.md"
+}

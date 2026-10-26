@@ -9,6 +9,9 @@ The owner prefers free or open-source tools. This file lists what's already paid
 - AWS, Firebase
 - Google Play developer account
 
+## Free open-source tools in use
+- **youtube-transcript-api** (Python, MIT, free): reads public YouTube captions with timestamps. Used only by `/draft-comments` for creators the owner marked Interested. It is not the official API, so it is a terms grey area (rules.md #8): low volume, no workarounds if blocked.
+
 ## Planned / candidate (not yet bought; owner willing)
 - **Higgsfield** (https://higgsfield.ai/): create a consistent AI avatar for the brand's TikTok/YouTube content. Treat as planned, not yet bought. Check current pricing before recommending anything that depends on it.
 
